@@ -1,11 +1,16 @@
-@import 'partials/general/reset';
+
 
 /* general */
-
+@import 'partials/general/reset';
+@import 'partials/general/variables';
+@import 'partials/general/structure';
 
 
 /* partials */
 
-
+@import 'partials/front/welcome';
 
 /* rwd */
+
+
+

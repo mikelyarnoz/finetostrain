@@ -1,0 +1,68 @@
+html {
+	font-size: 62.5%;
+}
+
+$principal: 'Playfair+Display', serif;
+$secundaria: 'Roboto', sans-serif;
+
+$colorprimario: #FADEB0;
+$colorsecundario: #00D699;
+
+
+/* ----------------FUENTES---------------- */
+p {
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	margin-bottom: 2.4rem;
+	min-width: 32rem;
+	display: block;
+
+}
+strong{
+	font-weight: 700;
+}
+
+
+
+hr {
+	display: block;
+	background-color: white;
+	margin-bottom: 2.4rem;
+	width: 16%;
+	height: 2px;
+}
+
+.btn-rounded {
+	text-align: center;
+	display: inline-block;
+	color: $colorsecundario;
+	font-family: $secundaria;
+	font-weight: 400;
+	width: 40%;
+	padding: 1.4rem 0px;
+	border: 3px solid $colorsecundario;
+	font-size: 1.8rem;
+	border-radius: 8rem;
+	min-width: 32rem;
+	line-height: 2.2rem;
+
+	li {
+		display: inline-block;
+	}
+	&__text{
+		display: inline-block;
+		margin-right: 1.2rem;
+	}
+	&__icon{
+		text-indent: -9999px;
+		display: inline-block;
+		background: transparent url('../img/icon-1.png') center  no-repeat;
+		height: 2.4rem;
+		width: 2.4rem;
+		background-size: 3rem 3rem;
+
+	}
+}
