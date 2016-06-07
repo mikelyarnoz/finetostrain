@@ -52,38 +52,45 @@ html {
 
 /* ----------------FUENTES---------------- */
 p {
-  color: white;
   font-family: Roboto, sans-serif;
   font-weight: 100;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   margin-bottom: 2.4rem;
-  min-width: 32rem;
+  display: block; }
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  margin-bottom: 2.4rem;
+  display: block; }
+
+h6 {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1rem;
   display: block; }
 
 strong {
   font-weight: 700; }
 
-hr {
+.hr-welcome {
   display: block;
   background-color: white;
-  margin-bottom: 2.4rem;
   width: 16%;
-  height: 2px; }
+  height: 3px;
+  margin: 0 auto 2.4rem auto; }
 
 .btn-rounded {
   text-align: center;
   display: inline-block;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  width: 40%;
-  padding: 1.4rem 0px;
-  background-color: #00D699;
-  font-size: 1.8rem;
-  border-radius: 0.2rem;
-  min-width: 32rem;
-  line-height: 2.2rem; }
+  font-weight: 400;
+  background-color: #00D699; }
   .btn-rounded li {
     display: inline-block; }
   .btn-rounded__text {
@@ -95,41 +102,47 @@ hr {
     background: transparent url("../img/icon-1.png") center no-repeat;
     height: 2rem;
     width: 2rem;
-    background-size: 3rem 3rem; }
+    background-size: 2rem 2rem; }
 
 html, body {
   height: 100%;
-  background: #fadcb4;
-  background: -moz-linear-gradient(left, #fadcb4 0%, #fac873 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #fadcb4), color-stop(100%, #fac873));
-  background: -webkit-linear-gradient(left, #fadcb4 0%, #fac873 100%);
-  background: -o-linear-gradient(left, #fadcb4 0%, #fac873 100%);
-  background: -ms-linear-gradient(left, #fadcb4 0%, #fac873 100%);
-  background: linear-gradient(to right, #fadcb4 0%, #fac873 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fadcb4', endColorstr='#fac873', GradientType=1 ); }
-
-.wrapper {
-  height: 100%; }
-  .wrapper--cincuenta {
-    text-align: center;
-    display: block;
-    background: transparent url("../img/fondo.png") center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center; }
-  .wrapper--centrado {
-    text-align: center;
-    display: block;
-    background: transparent url("../img/fondo.png") center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center; }
+  background: #fac873;
+  background: -moz-linear-gradient(left, #fac873 0%, #fadcb4 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #fac873), color-stop(100%, #fadcb4));
+  background: -webkit-linear-gradient(left, #fac873 0%, #fadcb4 100%);
+  background: -o-linear-gradient(left, #fac873 0%, #fadcb4 100%);
+  background: -ms-linear-gradient(left, #fac873 0%, #fadcb4 100%);
+  background: linear-gradient(to right, #fac873 0%, #fadcb4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac873', endColorstr='#fadcb4', GradientType=1 ); }
+  html .wrapper, body .wrapper {
+    height: 100%; }
+    html .wrapper--cincuenta, body .wrapper--cincuenta {
+      text-align: center;
+      display: block;
+      background: transparent url("../img/fondo.png") center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+    html .wrapper--centrado, body .wrapper--centrado {
+      text-align: center;
+      display: block;
+      background: transparent url("../img/fondo.png") center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      display: flex;
+      align-items: center; }
+    html .wrapper--setentaycinco, body .wrapper--setentaycinco {
+      padding-top: 5rem;
+      width: 75%;
+      display: block;
+      margin: 0 auto;
+      margin-left: 22%;
+      max-width: 920px; }
 
 /* partials */
 .welcome__content {
@@ -137,7 +150,11 @@ html, body {
   width: 50%;
   min-width: 32rem; }
   .welcome__content--text {
-    color: white; }
+    color: white;
+    min-width: 32rem;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.4rem; }
 
 h1 {
   display: block;
@@ -146,6 +163,54 @@ h1 {
   text-indent: -9999px;
   background-size: 20rem 20rem;
   margin-bottom: 6rem; }
+
+.welcome-content__btn {
+  width: 40%;
+  padding: 1.4rem 0px;
+  background-color: #00D699;
+  font-size: 1.8rem;
+  padding: 1.4rem 0px;
+  min-width: 32rem;
+  line-height: 2.2rem; }
+
+.hr.welcome {
+  display: block;
+  background-color: #00D699;
+  margin-bottom: 2.4rem;
+  width: 16%;
+  height: 2px; }
+
+.icon__content li {
+  display: inline-block;
+  float: lefft;
+  margin: 5%;
+  width: 10%; }
+
+.wrapper__box--cuarentaycinco {
+  width: 60%;
+  display: block;
+  float: left; }
+
+.wrapper__box--doce {
+  width: 30%;
+  display: block;
+  float: left;
+  background-color: white;
+  padding: 1.2rem;
+  border-right: 0.5rem solid #E6E6E6; }
+
+.download-content__btn {
+  width: 66%;
+  float: right;
+  padding: 0.6rem 0px;
+  line-height: 2.2rem; }
+
+.hr-main {
+  display: block;
+  background-color: #00D699;
+  width: 7rem;
+  height: 3px;
+  margin: 0 0 2.4rem; }
 
 /* rwd */
 

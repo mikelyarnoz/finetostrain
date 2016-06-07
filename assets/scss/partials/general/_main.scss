@@ -1,0 +1,40 @@
+.icon__content {
+	li{
+		display: inline-block;
+		float: lefft;
+		margin: 5%;
+		width: 10%;
+
+	}
+}
+.wrapper__box--cuarentaycinco {
+	width: 60%;
+	display: block;
+	float: left;
+}
+.wrapper__box--doce {
+	width: 30%;
+	display: block;
+	float: left;
+	background-color: white;
+	padding: 1.2rem;
+	border-right: 0.5rem solid #E6E6E6;
+	.column__content {
+		h3{
+
+		}
+	}
+}
+.download-content__btn{
+	width: 66%;
+	float: right;
+	padding: 0.6rem 0px;
+	line-height: 2.2rem;
+}
+.hr-main {
+	display: block;
+	background-color: $colorsecundario;
+	width: 7rem;
+	height: 3px;
+	margin: 0 0 2.4rem;
+}

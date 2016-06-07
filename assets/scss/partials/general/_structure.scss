@@ -1,38 +1,46 @@
 html, body {
 	height: 100%;	
-	background: rgba(250,220,180,1);
-	background: -moz-linear-gradient(left, rgba(250,220,180,1) 0%, rgba(250,200,115,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,220,180,1)), color-stop(100%, rgba(250,200,115,1)));
-	background: -webkit-linear-gradient(left, rgba(250,220,180,1) 0%, rgba(250,200,115,1) 100%);
-	background: -o-linear-gradient(left, rgba(250,220,180,1) 0%, rgba(250,200,115,1) 100%);
-	background: -ms-linear-gradient(left, rgba(250,220,180,1) 0%, rgba(250,200,115,1) 100%);
-	background: linear-gradient(to right, rgba(250,220,180,1) 0%, rgba(250,200,115,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fadcb4', endColorstr='#fac873', GradientType=1 );
-}
+	background: rgba(250,200,115,1);
+	background: -moz-linear-gradient(left, rgba(250,200,115,1) 0%, rgba(250,220,180,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,200,115,1)), color-stop(100%, rgba(250,220,180,1)));
+	background: -webkit-linear-gradient(left, rgba(250,200,115,1) 0%, rgba(250,220,180,1) 100%);
+	background: -o-linear-gradient(left, rgba(250,200,115,1) 0%, rgba(250,220,180,1) 100%);
+	background: -ms-linear-gradient(left, rgba(250,200,115,1) 0%, rgba(250,220,180,1) 100%);
+	background: linear-gradient(to right, rgba(250,200,115,1) 0%, rgba(250,220,180,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac873', endColorstr='#fadcb4', GradientType=1 );
 
-.wrapper {
-	height: 100%;
-	&--cincuenta{
-		text-align: center;
-		display: block;
-		background: transparent url('../img/fondo.png') center  no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		display: flex;
-		align-items: center;
+	.wrapper {
+		height: 100%;
+		&--cincuenta{
+			text-align: center;
+			display: block;
+			background: transparent url('../img/fondo.png') center  no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			display: flex;
+			align-items: center;
+		}
+		&--centrado {
+			text-align: center;
+			display: block;
+			background: transparent url('../img/fondo.png') center  no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			display: flex;
+			align-items: center;
+		}
+		&--setentaycinco{
+			padding-top: 5rem;
+			width: 75%;
+			display: block;
+			margin: 0 auto;
+			margin-left: 22%;
+			max-width: 920px;
+		}
+
 	}
-	&--centrado {
-		text-align: center;
-		display: block;
-		background: transparent url('../img/fondo.png') center  no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		display: flex;
-		align-items: center;
-	}
-	
-}
+}	

@@ -11,13 +11,31 @@ $colorsecundario: #00D699;
 
 /* ----------------FUENTES---------------- */
 p {
-	color: white;
+	
 	font-family: Roboto, sans-serif;
 	font-weight: 100;
-	font-size: 1.8rem;
-	line-height: 2.4rem;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
 	margin-bottom: 2.4rem;
-	min-width: 32rem;
+	display: block;
+
+}
+h3 {
+	
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	font-size: 3.6rem;
+	line-height: 4.2rem;
+	margin-bottom: 2.4rem;
+	display: block;
+
+}
+h6 {
+	
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	font-size: 0.9rem;
+	line-height: 1rem;
 	display: block;
 
 }
@@ -27,12 +45,12 @@ strong{
 
 
 
-hr {
+.hr-welcome {
 	display: block;
 	background-color: white;
-	margin-bottom: 2.4rem;
 	width: 16%;
-	height: 2px;
+	height: 3px;
+	margin: 0 auto 2.4rem auto;
 }
 
 .btn-rounded {
@@ -40,14 +58,10 @@ hr {
 	display: inline-block;
 	color: white;
 	font-family: $secundaria;
-	font-weight: 700;
-	width: 40%;
-	padding: 1.4rem 0px;
+	font-weight: 400;
+	
 	background-color: $colorsecundario;
-	font-size: 1.8rem;
-	border-radius: 0.2rem;
-	min-width: 32rem;
-	line-height: 2.2rem;
+	
 
 	li {
 		display: inline-block;
@@ -62,7 +76,7 @@ hr {
 		background: transparent url('../img/icon-1.png') center  no-repeat;
 		height: 2rem;
 		width: 2rem;
-		background-size: 3rem 3rem;
+		background-size: 2rem 2rem;
 
 	}
 }
