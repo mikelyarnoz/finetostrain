@@ -72,7 +72,8 @@ h6 {
   font-weight: 100;
   font-size: 0.9rem;
   line-height: 1rem;
-  display: block; }
+  display: block;
+  padding-top: 0.5rem; }
 
 strong {
   font-weight: 700; }
@@ -136,13 +137,12 @@ html, body {
       background-size: cover;
       display: flex;
       align-items: center; }
-    html .wrapper--setentaycinco, body .wrapper--setentaycinco {
+    html .wrapper--sesenta, body .wrapper--sesenta {
       padding-top: 5rem;
-      width: 75%;
+      width: 60%;
       display: block;
       margin: 0 auto;
-      margin-left: 22%;
-      max-width: 920px; }
+      margin-left: 5%; }
 
 /* partials */
 .welcome__content {
@@ -182,22 +182,32 @@ h1 {
 
 .icon__content li {
   display: inline-block;
-  float: lefft;
-  margin: 5%;
-  width: 10%; }
+  float: left;
+  margin: 6%;
+  width: 6rem;
+  text-align: center;
+  background-color: red;
+  display: block;
+  height: 6rem;
+  text-indent: -9999px;
+  background: transparent url("../img/icon-1.png") center no-repeat;
+  background-size: 6rem; }
 
 .wrapper__box--cuarentaycinco {
-  width: 60%;
-  display: block;
-  float: left; }
+  width: 100%;
+  display: block; }
 
 .wrapper__box--doce {
-  width: 30%;
+  width: 25%;
+  position: fixed;
+  right: 5%;
+  top: 5%;
   display: block;
-  float: left;
   background-color: white;
   padding: 1.2rem;
   border-right: 0.5rem solid #E6E6E6; }
+  .wrapper__box--doce .column__content p {
+    margin-bottom: 12rem; }
 
 .download-content__btn {
   width: 66%;
@@ -211,6 +221,11 @@ h1 {
   width: 7rem;
   height: 3px;
   margin: 0 0 2.4rem; }
+
+.wrapper--box__max {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative; }
 
 /* rwd */
 
