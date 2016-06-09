@@ -105,6 +105,9 @@ strong {
     width: 2rem;
     background-size: 2rem 2rem; }
 
+a {
+  color: white; }
+
 html, body {
   height: 100%;
   background: #fac873;
@@ -118,31 +121,27 @@ html, body {
   html .wrapper, body .wrapper {
     height: 100%; }
     html .wrapper--cincuenta, body .wrapper--cincuenta {
-      text-align: center;
-      display: block;
       background: transparent url("../img/fondo.png") center no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
-      display: flex;
-      align-items: center; }
+      background-size: cover; }
     html .wrapper--centrado, body .wrapper--centrado {
       text-align: center;
       display: block;
-      background: transparent url("../img/fondo.png") center no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
       display: flex;
       align-items: center; }
     html .wrapper--sesenta, body .wrapper--sesenta {
-      padding-top: 5rem;
+      padding-top: 2rem;
       width: 60%;
       display: block;
       margin: 0 auto;
       margin-left: 5%; }
+
+.wrapper--box__max {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative; }
 
 /* partials */
 .welcome__content {
@@ -183,17 +182,16 @@ h1 {
 .icon__content li {
   display: inline-block;
   float: left;
-  margin: 6%;
-  width: 6rem;
+  margin: 3rem;
+  width: 5rem;
   text-align: center;
-  background-color: red;
   display: block;
-  height: 6rem;
+  height: 5rem;
   text-indent: -9999px;
-  background: transparent url("../img/icon-1.png") center no-repeat;
-  background-size: 6rem; }
+  background: transparent url("../img/icon8.png") center no-repeat;
+  background-size: 5rem; }
 
-.wrapper__box--cuarentaycinco {
+.wrapper__box {
   width: 100%;
   display: block; }
 
@@ -221,11 +219,6 @@ h1 {
   width: 7rem;
   height: 3px;
   margin: 0 0 2.4rem; }
-
-.wrapper--box__max {
-  max-width: 1400px;
-  margin: 0 auto;
-  position: relative; }
 
 /* rwd */
 

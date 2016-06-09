@@ -12,29 +12,20 @@ html, body {
 	.wrapper {
 		height: 100%;
 		&--cincuenta{
-			text-align: center;
-			display: block;
 			background: transparent url('../img/fondo.png') center  no-repeat;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
-			display: flex;
-			align-items: center;
 		}
 		&--centrado {
 			text-align: center;
 			display: block;
-			background: transparent url('../img/fondo.png') center  no-repeat;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
 			display: flex;
 			align-items: center;
 		}
 		&--sesenta{
-			padding-top: 5rem;
+			padding-top: 2rem;
 			width: 60%;
 			display: block;
 			margin: 0 auto;
@@ -44,3 +35,8 @@ html, body {
 	}
 }	
 
+.wrapper--box__max {
+	max-width: 1400px;
+	margin: 0 auto;
+	position: relative;
+}

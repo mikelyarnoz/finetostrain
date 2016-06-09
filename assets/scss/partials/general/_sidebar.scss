@@ -1,0 +1,33 @@
+.wrapper__box {
+	width: 100%;
+	display: block;
+}
+
+.wrapper__box--doce {
+	width: 25%;
+	position: fixed;
+	right: 5%;
+	top: 5%;
+	display: block;
+	background-color: white;
+	padding: 1.2rem;
+	border-right: 0.5rem solid #E6E6E6;
+	.column__content {
+		p{
+			margin-bottom: 12rem;
+		}
+	}
+}
+.download-content__btn{
+	width: 66%;
+	float: right;
+	padding: 0.6rem 0px;
+	line-height: 2.2rem;
+}
+.hr-main {
+	display: block;
+	background-color: $colorsecundario;
+	width: 7rem;
+	height: 3px;
+	margin: 0 0 2.4rem;
+}
