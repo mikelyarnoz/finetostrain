@@ -220,6 +220,34 @@ h1 {
   height: 3px;
   margin: 0 0 2.4rem; }
 
+.popup {
+  display: none; }
+  .popup__wrapper {
+    width: 50%;
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    padding: 1.2rem;
+    border-right: 0.5rem solid #E6E6E6; }
+
+.icon__content li {
+  display: inline-block;
+  float: left;
+  margin: 3rem;
+  width: 5rem;
+  text-align: center;
+  display: block;
+  height: 5rem;
+  text-indent: -9999px;
+  background: transparent url("../img/icon8.png") center no-repeat;
+  background-size: 5rem; }
+  .icon__content li--grande {
+    height: 9rem;
+    width: 9rem;
+    background-size: 9rem; }
+
 /* rwd */
 
 /*# sourceMappingURL=general.css.map */
